@@ -51,13 +51,13 @@ export default function Home() {
       icon: FiDatabase,
       color: "text-green-400",
     },
-    {
-      label: "Replay Ready",
-      value: "Soon",
-      icon: FiGitBranch,
-      color: "text-amber-400",
-      disabled: true,
-    },
+    // {
+    //   label: "Replay Ready",
+    //   value: "Soon",
+    //   icon: FiGitBranch,
+    //   color: "text-amber-400",
+    //   disabled: true,
+    // },
   ];
 
   return (

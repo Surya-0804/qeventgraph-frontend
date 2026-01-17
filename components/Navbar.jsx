@@ -10,7 +10,7 @@ export default function Navbar() {
   const navItems = [
     { href: "/", label: "Dashboard", icon: FiHome },
     { href: "/executions", label: "Executions", icon: FiLayers },
-    { href: "/replay", label: "Replay", icon: FiGitBranch, disabled: true },
+    // { href: "/replay", label: "Replay", icon: FiGitBranch, disabled: true },
   ];
 
   return (
