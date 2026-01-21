@@ -10,7 +10,7 @@ export default function Navbar() {
   const navItems = [
     { href: "/", label: "Dashboard", icon: FiHome },
     { href: "/executions", label: "Executions", icon: FiLayers },
-    { href: "/replay", label: "Replay", icon: FiGitBranch, disabled: true },
+    // { href: "/replay", label: "Replay", icon: FiGitBranch, disabled: true },
   ];
 
   return (
@@ -63,10 +63,10 @@ export default function Navbar() {
           </div>
 
           {/* Status indicator */}
-          <div className="flex items-center gap-2 text-sm">
+          {/* <div className="flex items-center gap-2 text-sm">
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
             <span className="text-zinc-400">Mock Mode</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
